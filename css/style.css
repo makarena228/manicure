@@ -1,0 +1,819 @@
+:root{
+    --white--: #FFFFFF;
+    --black--: #000000;
+    --pink--: #EEC8BD;
+}
+html{
+    font-size: 16px;
+}
+body{
+    font-family: "Roboto", sans-serif;
+    margin: 0 auto;
+}
+/* шрифты 48 36  30 24 20*/
+h1{
+    font-family: "Roboto", sans-serif;
+    font-size: 2.4rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 135%;
+}
+h2{
+    font-family: "Roboto", sans-serif;
+    font-size: 1.8rem;
+    color: var(--black--);
+}
+h3{
+    font-family: "Roboto", sans-serif;
+    font-size: 1.5rem;
+    color: var(--black--);
+    text-transform: uppercase;
+    line-height: 135%;
+}
+h4{
+    font-family: "Roboto", sans-serif;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    line-height: 135%;
+}
+h5{
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    color: var(--black--);
+    font-weight: 300;
+    text-transform: uppercase;
+}
+h6{
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    color: var(--black--);
+    font-weight: 500;
+    text-transform: uppercase;
+}
+/*const*/
+.but{
+    font-family: "Roboto", sans-serif;
+    border: none;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 11px;
+}
+.but2{
+    font-family: "Roboto", sans-serif;
+    border: none;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 11px;
+}
+.but2:hover{
+    color: var(--black--);
+    background-color: var(--pink--);
+    transition: 0.7s;
+    cursor: pointer;
+}
+.but:hover{
+    color: var(--pink--);
+    background-color: var(--black--);
+    transition: 0.7s;
+    cursor: pointer;
+}
+section{
+    margin: 0 auto;
+    max-width: 100%;
+}
+ul li{
+    list-style-type: disc;
+    color: var(--black--);
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    color: var(--black--);
+    font-weight: 300;
+    text-transform: uppercase;
+}
+p{
+    font-family: "Roboto", sans-serif;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    line-height: 200%;
+}
+/*header*/
+header{
+    margin: 0 auto;
+    background-color: var(--black--);
+    width: 100%;
+    height: 60px;
+}
+.head{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    width: 80%;
+    margin: 0 auto;
+}
+header h5{
+    color: var(--white--);
+    text-transform: uppercase;
+}
+.navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.header-right{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.signup-button{
+    font-size: 1rem;
+    color: var(--black--);
+    font-weight: 700;
+    background-color: var(--pink--);
+    height: 35px;
+    width: 150px;
+}
+.nav a{
+    text-decoration: none;
+}
+.menu-but{
+    display: none;
+    width: 50px;
+    height: 50px;
+    background-image: url(../images/menu-icon.svg);
+    position: absolute;
+    right: 20px;
+}
+/*mainpage*/
+.main-section{
+    background: url(../images/main-photo.png) center no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+}
+.main-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 8%;
+}
+.main-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main-capture{
+    color: var(--white--);
+    margin-top: -7%;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+.main-button{
+    margin-top: 7%;
+}
+.main-signup-button{
+    font-size: 1.2rem;
+    color: var(--white--);
+    background-color: var(--pink--);
+    height: 50px;
+    width: 250px;
+    box-shadow: 3px 2px 8px 0 #000000;
+}
+/* 1page*/
+.first-section{
+    padding-bottom: 3%;
+}
+.first-page{
+    margin: 0  auto;
+    width: 85%;
+}
+.reason{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8%;
+    width: 200px;
+    }
+.text-reason{
+    text-align: center;
+    margin-top: 10%;
+    line-height: 135%;
+}
+.icons-reasons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 4%;
+    flex-wrap: wrap;
+    }
+.first-heading{
+    margin-top: 8%;
+    text-align: center;
+}
+.first-subtitle{
+    margin-top: 6%;
+    text-align: center;
+    color: var(--black--);
+}
+/*2page*/
+.second-section{
+    background-color: var(--pink--);
+    margin: 0 auto;
+    padding: 2% 0 0 0;
+}
+.second-page{
+    margin-top: 3%;
+    width: 80%;
+}
+.second-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.second-heading{
+    margin-top: 1%;
+    text-align: center;
+}
+.second-subtitle{
+    margin-top: 1%;
+    text-align: center;
+    color: var(--black--);
+    width: 80%;
+}
+/*3 page table*/
+.third-section{
+    width: 100%;
+    background-color: var(--pink--);
+}
+.price-list{
+    margin: 0 auto;
+    border-spacing: 16rem 10rem;
+    border-collapse: collapse;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+
+}
+.price-list table{
+    width: 60%;
+    line-height: 250%;
+    border-collapse: separate;
+    padding-top: 20px;  
+}
+.th{
+    color: var(--white--);
+    background-color: var(--black--);
+    height: 30px;
+    text-align: center;
+}
+/*4 page adress*/
+.fourth-section{
+    width: 100%;
+}
+.fourth-page{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 7%;
+    gap: 10%;
+}
+.interaction{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 7%;
+    gap: 15%;
+}
+.fourth-signup-button{
+    font-size: 1.5rem;
+    color: var(--white--);
+    background-color: var(--pink--);
+    height: 45px;
+    width: 200px;
+    box-shadow: 3px 2px 8px 0 #000000;
+}
+.location{
+    display: flex;
+    flex-direction: column;
+}
+.view-adresses{
+    text-decoration: underline;
+}
+.text-location{
+    line-height: 135%;
+    margin-top: 3%;
+}
+.view-adresses a{
+    color: var(--black--);
+    text-decoration: none;
+}
+/*5 page portfolio*/
+.portfolio{
+    padding-bottom: 2%;
+    margin: 0 auto;
+}
+.portfolio-page{
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    padding-top: 90px;
+    padding-bottom: 50px;
+}
+.works{
+    display: flex;
+    flex-direction: row ;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.subtitle-portfolio{
+    width: 500px;
+    margin-top: 20px;
+    text-align: left;
+    line-height: 30px;
+}
+/*signup form*/
+.signup-form{
+    background-color: var(--pink--);
+    margin-bottom: 7%;
+    padding-bottom: 5%;
+}
+.form-signup{
+    margin: 0 auto;
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    color: var(--black--);
+    font-weight: 300;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.form-signup-online{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15%;
+    margin-top: 4%;
+}
+.form-signup-button{
+    margin-top: 5px;
+    font-size: 1.2rem;
+    color: var(--white--);
+    font-weight: 700;
+    background-color: var(--black--);
+    height: 50px;
+    width: 200px;
+    box-shadow: 3px 2px 8px 0 #000000;
+}
+input{
+    color: var(--black--);
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    max-width: 100%;
+    width: 200px;
+    height: 40px;
+    border-radius: 11px;
+    border: none;
+}
+.title-form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2%;
+}
+
+/*address-list*/
+.hr-first{
+    width: 100%;
+    border: 1px;
+    opacity: 50%;
+}
+.address-list{
+    padding-bottom: 4%;
+    width: 80%;
+    margin: 0 auto;
+}
+.title-our-addresses{
+    margin-top: 5%;
+}
+.first-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: left;
+    gap: 10%;
+    margin-top: 5%;
+}
+.second-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: left;
+    gap: 10%;
+    margin-top: 5%;
+}
+.address{
+    width: 17%;
+    line-height: 135%;
+}
+.hr-first{
+    width: 100%;
+    border: 1px;
+    opacity: 50%;
+}
+/* job openings */
+.job-openings{
+    margin: 0 auto;
+    padding-bottom: 4%;
+}
+.vacancy-page{
+    width: 80%;
+    margin: 0 auto;
+}
+.vacancies{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    margin-top: 5%;
+    flex-wrap: wrap;
+}
+.text-job{
+    margin-top: 5%;
+}
+.subtitle-job{
+    margin-top: 2%;
+}
+.more-button{
+    font-size: 1.5rem;
+    color: var(--white--);
+    background-color: var(--black--);
+    height: 45px;
+    width: 280px;
+    box-shadow: 3px 2px 8px 0 #000000;
+    margin-top: 6%;
+}
+.vacancy{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.salary-vacancy-name{
+    font-family: "Roboto", sans-serif;
+    font-size: 1.5rem;
+    color: var(--black--);
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.salary-amount{
+    font-family: "Roboto", sans-serif;
+    font-size: 1.5rem;
+    color: var(--black--);
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.vacancy-open{
+    height: 0px;
+    width: 250px;
+    transition: .5s;
+    overflow: hidden;
+}
+/* vacancy form */
+.vacancy-form{
+    width: 100%;
+    background-color: var(--pink--);
+    margin-bottom: 7%;
+}
+.form-vacancy{
+    margin: 0 auto;
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    color: var(--black--);
+    font-weight: 300;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+.form-vacancy-fields{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 35%;
+}
+.first-column-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15%;
+    margin-top: 20px;
+}
+.second-column-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15%;
+    margin-top: 20px;
+}
+.form-vacancy-label{
+    margin-top: 15px;
+}
+.form-vacancy-but{
+    color: var(--white--);
+    background-color: var(--black--);
+}
+.vac-input{
+    width: 350px;
+    height: 30px;
+}
+/* foot */
+footer{
+    margin: 0 auto;
+    background-color: var(--black--);
+    width: 100%;
+}
+.foot{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20%;
+    width: 95%;
+    margin: 0 auto;
+    vertical-align: middle;
+}
+.icons-media{
+    display: flex;
+    flex-direction: row;
+    gap: 20%;
+}
+.email{
+    color: var(--white--);
+}
+.vacancy-open.show{
+    height: 100%;
+}
+@media screen and (max-width:1320px) {
+    .phone{
+        font-size: 0.9rem ;
+    }
+}
+@media screen and (max-width:1295px) {
+    .phone{
+        font-size: 0.7rem ;
+    }
+    .form-signup-online{
+        flex-direction: column;
+        gap: 30px;
+    }
+    input{
+        width: 400px;
+    }
+    .form-signup-button{
+        width: 400px;
+    }
+}
+@media screen and (max-width:1230px){
+    .phone h5{
+        display: none ;
+    }
+}
+@media screen and (max-width:1100px){
+    .main-section{
+        margin-top: -7px;
+    }
+    
+}
+@media screen and (max-width:1030px){
+    .text-location{
+        width: 110%;
+    }
+    .interaction{
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+}
+@media screen and (max-width:1000px){
+    .head{
+        gap: 6%;
+    }
+    .form-vacancy-fields{
+        gap: 15%;
+    }
+}
+@media screen and (max-width:970px){    
+    .head{
+        gap: 1%;
+    }
+}
+@media screen and (max-width:900px){    
+    .fourth-page{
+        width: 70%;
+        gap: 20px;
+    }
+}
+@media screen and (max-width:840px){    
+    .header-right{  
+        display: none;
+    }
+    .third-section{
+        padding-top: 4%;
+    }
+    .fourth-page{
+        flex-direction: column;
+        margin-bottom: 100px;
+    }
+    .interaction{
+        flex-direction: row;
+        justify-content: center;
+        gap: 30%;
+    }
+    .location{
+        width: 85%;
+    }
+    .title-location{
+        text-align: center;
+    }
+    .text-porfolio{
+        text-align: center;
+    }
+    .subtitle-portfolio{
+        text-align: center;
+        margin: 0 auto;
+        width: 80%;
+    }
+    .form-vacancy-fields{
+        width: 80%;
+    }
+    .foot{
+        width: 60% ;
+    }
+}
+@media screen and (max-width:800px){    
+    .form-vacancy-fields{
+        flex-direction: column;
+    }
+    .vacancy-form{
+        padding-bottom: 4%;
+    }
+    .form-vacancy-but{
+        width: 355px;
+    }
+}
+@media screen and (max-width:700px){    
+    html{
+        font-size: 13px;
+    }
+    .portfolio-page{
+        padding-top: 1px;
+    }
+}
+@media screen and (max-width:640px){    
+    .foot{
+        flex-direction: column;
+        gap: 20px;
+        padding-bottom: 4%;
+        text-align: center;
+    }
+    .icons-media{
+        justify-content: center;
+    }
+    .main-logo{
+        width: 450px;
+        padding-top: 20%;
+    }
+}
+@media screen and (max-width:570px){    
+    .navigation{
+        display: none;
+    }
+    .navigation.show{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100dvh;
+        background-color: var(--black--);
+        font-size: 36px;
+    }
+    .menu-but{
+        display: block;
+        z-index: 10;
+    }
+    .photo-saloon{
+        width: 100%;
+    }
+    .address-list{
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .list-of-addresses{
+        display: flex;
+        flex-direction: row;
+        gap: 50px;
+    }
+    .title-our-addresses{
+        text-align: center;
+    }
+    .first-row{
+        display: flex;
+        flex-direction: column ;
+        gap: 30px;
+    }
+    .second-row{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .address{
+        width: 200px;
+    }
+    .interaction{
+        gap: 10%;
+    }
+
+}
+@media screen and (max-width:450px){    
+    html{
+        font-size: 12px;
+    }
+    h1{
+        font-size: 1.8rem;
+    }
+    .list-of-addresses{
+        gap: 7px;
+    }
+    .zapis{
+        width: 250px;
+    }
+    .main-logo{
+        width: 330px;
+        padding-top: 45%;
+    }
+}
+@media screen and (max-width:400px){    
+    .list-of-addresses{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .second-heading{
+        width: 85%;
+    }
+    .interaction{
+        flex-direction: column;
+    }
+    .view-adresses{
+        padding-top: 30px;
+    }
+}
+/* table th */
+
